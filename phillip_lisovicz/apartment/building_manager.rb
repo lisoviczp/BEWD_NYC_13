@@ -26,6 +26,7 @@ def create_building
   building_address = gets.strip
 
   Building.new(building_name, building_address)
+
 end
 
 def create_apartment
